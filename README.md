@@ -24,7 +24,7 @@ Sản phẩm được thực hiện trong khuôn khổ **Hội thi “Ứng dụ
 
 ## 💻 Cách sử dụng
 1. Truy cập website:  
-   👉 [https://tênngườidùng.github.io/robotin-hoclop3](https://tênngườidùng.github.io/robotin-hoclop3)  
+   👉 [(https://ngocbichpham092414-dev.github.io/RoboTinlop3/) ]
 2. Quét mã QR hoặc nhấn **“Mở chatbot Rôbô Tin”** để trò chuyện cùng trợ lý ảo.  
 
 ---
