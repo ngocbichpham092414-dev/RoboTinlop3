@@ -60,15 +60,29 @@
 
     <!-- Ảnh minh họa mới (đã thay) -->
     <img src="https://cdn-icons-png.flaticon.com/512/4712/4712100.png" alt="Rôbô Tin" width="200">
-<div class="video-container">
+<!-- VIDEO responsive -->
+<div class="video-container" style="max-width:800px; margin:auto; text-align:center;">
+
+  <style>
+    /* Video responsive */
+    .video-container video {
+      width: 100%;
+      height: auto; /* giữ tỉ lệ video */
+      display: block;
+      border-radius: 8px;
+    }
+
+    /* Tùy chỉnh hiển thị trên điện thoại */
+    @media (max-width: 768px) {
+      .video-container video {
+        max-width: 100%;
+      }
+    }
+  </style>
+
+  <!-- CHỈ ĐỂ MỘT VIDEO DUY NHẤT -->
   <video src="intro (1).mp4" controls></video>
 </div>
-    
-<h3>🎬 Video giới thiệu sản phẩm</h3>
-<video width="560" height="315" controls>
-  <source src="intro (1).mp4" type="video/mp4">
-  Trình duyệt của bạn không hỗ trợ xem video.
-</video>
     
 <h3>📄 Hồ sơ dự thi</h3>
 <p>Bấm vào nút dưới đây để xem hoặc tải hồ sơ dự thi:</p>
@@ -93,6 +107,7 @@
 </body>
 
 </html>
+
 
 
 
